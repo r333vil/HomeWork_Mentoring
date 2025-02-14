@@ -3,7 +3,7 @@
 const tab = [10, 20, 30]
 
 if (tab.includes(20)) {
-    return true ;
+    console.log(true)
 } else {
     console.log(false);
 }

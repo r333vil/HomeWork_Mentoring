@@ -3,18 +3,12 @@
 
 function uniqueObjects(arr,key) {
     const result = [];
-
-
     arr.forEach(obj => {
         if(!result.some(existing => existing[key] === obj[key])){
             result.push(obj)
-        }
-        
+        }    
     });
-
     console.log(result);
-    
-
 }
 
 const arr = [

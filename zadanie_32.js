@@ -4,7 +4,7 @@
 
 function chunkArray(arr, size) {
     const result = []
-    arr.forEach((element, index) => { //jak tutaj jesli ten element nie uzywam tylko index to mozna go usunac jakos ?
+    arr.forEach((element, index) => { //chodzi mi o arr.forEach((ELEMENT,index)) <- jesli nie uzywam tego elementu to moge zapisac to po prostu (,index) ? pytam tylko z ciekawosci
         if (index % size === 0) {
             result.push(arr.slice(index, index + size))
         }
