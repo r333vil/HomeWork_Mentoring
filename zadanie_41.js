@@ -15,4 +15,3 @@ function isArrayLike(...arg) {
 }
 
 isArrayLike(44,3,53,523,'?',[1,2,3,4]);
-

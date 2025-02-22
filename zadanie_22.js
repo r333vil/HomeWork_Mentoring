@@ -7,4 +7,3 @@ const maxNumber = Math.max(...tab)
 const index = tab.indexOf(maxNumber)
 
 console.log(index);
-

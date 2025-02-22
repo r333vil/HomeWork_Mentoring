@@ -1,8 +1,5 @@
 // Napisz funkcję, która usunie z tablicy wszystkie duplikaty.
-
-
 const array = [4, 17, 2, 9, 23, 5,5,5,5,5,5,5,,17,17,2,3,54,3426,24576] ;
-
 let obj = {};
 
 array.forEach(curr => {
