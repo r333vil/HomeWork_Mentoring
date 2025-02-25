@@ -1,0 +1,1 @@
+//Użyj Symbol.iterator, aby dodać iteracyjność do zwykłego obiektu { a: 1, b: 2, c: 3}.

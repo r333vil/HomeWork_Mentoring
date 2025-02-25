@@ -1,0 +1,1 @@
+//Użyj Array.from() do konwersji iterable na tablicę i wypisz jej zawartość.
